@@ -47,6 +47,8 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
     }
 
@@ -91,8 +93,6 @@ padding-right: 15px;
     .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     }
 .header-menu-link:hover {
     color: #404BBF;}
@@ -196,12 +196,16 @@ margin: 0 auto;
     }
 
     .visually-hidden {
-        clip-path: inset(50%);
-        height: 1px;
-        overflow: hidden;
         position: absolute;
-        white-space: nowrap;
         width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
 
     /* Team */
