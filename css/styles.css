@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1128px;
 
@@ -245,9 +249,7 @@ padding: 16px 32px;
         width: 1128px;
         }
 
-    img {
-        display: block;
-    }
+
 
     .portfolio-title {
         color: #2E2F42;
